@@ -1,0 +1,299 @@
+body{
+	width: 1920px;
+}
+.none{
+	display: none;
+}
+.nav{
+	background: #1f253d;
+	height: 76px;
+	border-bottom: solid 7px #ed9b2f;
+}
+.nav a{
+	color: #ffffff;
+	font-size: 20.54px;
+	font-weight: bold;
+	line-height: 76px;
+	padding: 0 15px;
+}
+.nav a:hover{
+	color: #ed9b2f;
+	
+}
+.nav>div{
+	margin:0 auto;
+	width:1200px;
+}
+.nav img{
+	vertical-align: middle;
+}
+#navpic img{
+	height: 772px;
+	width: 1920px;
+}
+.main1{
+	width: 888px;
+	margin: 0 auto;
+}
+.main1 img{
+	display: block;
+	margin: 0 auto;
+}
+.main1 p{
+	font-size: 15px;
+	text-indent: 2em;
+	line-height: 26.25px;
+}
+img.guest{
+	display: block;
+	margin: 65px auto 40px auto;
+}
+.main2{
+	width: 1920px;
+	height: 600px;
+	background: url(../images/6.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.main2pic{
+	width: 1200px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -200px;
+	margin-left: -600px;
+	text-align: center;
+}
+.main2picture{
+	width: 225px;
+	height: 390px;
+}
+.arrow{
+	position: absolute;
+	top: 50%;
+	margin-top: -18px;
+	cursor: pointer;
+}
+.left{
+	left: 0;
+}
+.right{
+	left: 96%;
+}
+.main3{
+	width: 1200px;
+	margin: 0 auto;
+}
+img.sound{
+	display: block;
+	margin: 35px auto 60px auto;
+}
+.main3person h1{
+	text-align: center;
+	color: #1f253d;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: normal;
+
+}
+.personimg{
+	width: 142px;
+	height: 145px;
+}
+.main3person p{
+	color: #1f253d;
+	line-height: 19.2px;
+	font-size: 16px;
+}
+.main3person img{
+	display: block;
+	margin: 0 auto;
+}
+.main3person div{
+	width: 171px;
+	display: inline-block;
+	margin-left: 20px;
+}
+.more{
+	display: block;
+	margin: 60px auto 75px auto;
+}
+.meeting{
+	margin: 0 auto;
+	display: block;
+}
+.main4{
+	width: 1920px;
+	height: 650px;
+	background: url(../images/6.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.main4video{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -480px;
+	margin-top: -240px;
+	width: 960px;
+	height:480px;
+}
+.publish{
+	margin: 50px auto 20px auto;
+	display: block;
+}
+.main5{
+	height: 525px;
+	width: 1920px;
+	background: #ed9b2f;
+}
+.release,.sign{
+	height: 250px;
+}
+.release img,.sign img{
+	margin-left: 540px;
+	margin-top: 25px;
+}
+.main5 a{
+	color: #ffffff;
+	line-height: 32px;
+	font-size: 17px;
+}
+.main5p{
+	margin-left: 100px;
+	margin-top: 50px;
+}
+.dateimg{
+	margin: 40px auto 20px auto;
+	display: block;
+}
+.main6{
+	width: 1200px;
+	margin: 0 auto;
+}
+.date{
+	background-color: #1f253d;
+	width: 280px;
+	height: 65px;
+	cursor: pointer;
+	display: inline-block;
+}
+.date img{
+	display: inline-table;
+	vertical-align: middle;
+	padding-left: 30px;
+}
+.date span{
+	color: #ffffff;
+	font-size: 25px;
+	line-height: 65px;
+	padding-left: 35px;
+}
+.main6p{
+	width: 420px;
+	margin: 50px auto 40px auto;
+}
+.main6p span{
+	line-height: 22.4px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #1f253d;
+	padding-left: 25px;
+}
+.enjoyimg{
+	margin: 30px auto 15px auto;
+	display: block;
+
+}
+.main7{
+	width: 1920px;
+	border-top: solid 7px #ed9b2f;
+}
+.scenicpictures{
+	width: 1920px;
+	height:300px;
+	background: #ed9b2f;
+	position: relative;
+}
+.scenicpic{
+	width: 255px;
+	height: 255px;
+}
+.scenicpictures>div{
+	width:1200px;
+	position: absolute;
+	top: 25px;
+	left: 380px;
+}
+.main8{
+	width: 1200px;
+	margin: 0 auto;
+}
+.reviewimg{
+	display: block;
+	margin: 35px auto 20px auto;
+}
+.reviewpictures{
+	background-color: #1f253d;
+	width: 290px;
+	height: 280px;
+	display: inline-block;
+}
+.reviewpictures img{
+	width: 290px;
+	height: 220px;
+	display: inline-block;
+	border-bottom: solid 10px #ed9b2f;
+}
+.reviewpictures div{
+	width: 290px;
+	height: 50px;
+	text-align: center;
+}
+.reviewpictures span{
+	line-height: 22.8px;
+	font-size: 19px;
+	color: #f8f8f8;
+}
+.footer{
+	width: 1920px;
+	margin-top: 50px;
+}
+.footbox{
+	width: 1920px;
+	height: 70px;
+	border-top: solid 10px #ed9b2f;
+	background-color: #1f253d;
+}
+.sponsor{
+	width: 1200px;
+	margin: 20px auto 0 auto;
+}
+.sponsor img{
+	width: 190px;
+	height: 100px;
+}
+.line{
+	display: block;
+	margin-top: -37px;
+}
+img{
+	border: 0;
+}
+.marquee2left{
+	position: absolute;
+	left: 400px;
+}
+.marquee2right{
+	position: absolute;
+	left: 1500px;
+}
+.scenicpictures{
+	position: relative;
+}
+#Marquee2{
+	top: 50%;
+	margin-top: -112.5px;
+	left: 25%;
+}

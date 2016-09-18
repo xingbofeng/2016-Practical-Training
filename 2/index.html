@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>四川旅游产业TOP10-专题-四川在线</title>
+	<script src="jquery.js"></script>
+	<script>
+	$(document).ready(function  () {
+		$("#company").click(function  () {
+			$("#company").css("background-color","#257aad");
+			$("#project").css("background-color","#e5effb");
+			$("#company").css("color","#ffffff");
+			$("#project").css("color","#676767");
+			$(".click1").css("display","inline");
+			$(".click2").css("display","none");
+		})
+		$("#project").click(function  () {
+			$("#project").css("background-color","#257aad");
+			$("#company").css("background-color","#e5effb");
+			$(".click2").css("display","inline");
+			$(".click1").css("display","none");
+			$("#company").css("color","#676767");
+			$("#project").css("color","#ffffff");
+		})
+		$("#showclick1").click(function  () {
+			$(".exhibition1").css("display","inline-block");
+			$(".exhibition2").css("display","none");
+			$(".menu1").css("background-color","#257aad");
+			$(".menu2").css("background-color","#cccccc");
+		})
+		$("#showclick2").click(function  () {
+			$(".exhibition2").css("display","inline-block");
+			$(".exhibition1").css("display","none");
+			$(".menu2").css("background-color","#257aad");
+			$(".menu1").css("background-color","#cccccc");
+		})
+		$(window).scroll(function  () {
+			var top = $(window).scrollTop()+200;
+			var left = $(window).scrollLeft()+1000;
+			$(".flpic").css({top:top+"px"});
+		})
+	})
+	</script>
+</head>
+<body>
+	<div class="float">
+		<img src="images/fl.png" alt="" class="flpic">	
+	</div>
+	<div id="header" class=""></div>
+	<div style="width:1200px; margin:0 auto;">
+    <div class="clearfix">
+	<div class="fl" style="width:790px;background-color:#ffffff;">
+		<div id="selection-method">
+			<img src="images/top10_r3_c2.gif" alt="">
+			<p id="selection-method-paragraph" class="ml50 w700">&nbsp&nbsp&nbsp&nbsp&nbsp由四川省旅游协会、四川日报社共同主办的“‘十二五’四川旅游产业TOP10榜单推选及发布活动”于2016年1月正式拉开帷幕。2013年至今，“四川旅游产业TOP10榜单推行及发布活动”连继举办三年，已成为全省旅游业界最具权威性与公信力的推选活动，成为四川旅游产业发展的“英雄榜”与“风向标”。随着“十二五”收官，“十三五”的到来，旅游业作为全省服务业龙头与国民经济的支柱产业，在全省经济发展中地位举足轻重。从本次的“四川旅游产业TOP10榜单”中，我们可以看到“十二五”期间，全省旅游产业发展核心力量的身影，更能得以一觑旅游行业中领跑者的风采。“十二五四川旅游产业TOP10”榜单分为六大类选项，所有候选者均由全省21个市州呈报其最具代表性的旅游景区、旅游项目与旅游企业，并以网络投票及专家评审形式决出最终榜单，结果将于全省两会期间正式公布。</p>
+		</div>
+		<div id="activity" class="mt10 w790">
+			<img src="images/top10_r6_c2.gif" alt="">
+			<p id="activity-paragraph" class="ml50 w440">
+			网络投票时间：2016年1月18日9：30－1月24日17：00。<br>
+			投票渠道：四川在线网、TSichuan网站专题页面、“美美四川”微信公众号。<br>
+			声明：本次top10活动网络投票开通后得到网友热情参与及各候选单位积极参评。但，昨日，有网络投票公司假冒主办方名义招揽代投票业务，四川省旅游协会与四川日报社在此声明，本次网络投票本着公平公开原则，严厉禁止任何作弊行为，请参评单位公平投票，一旦发现刷票行为，将公示并取消参选资格。<br>
+			<a href="#">[详细]</a>
+			</p>
+			<img src="images/activity-picture.png" alt="">
+		</div>
+	</div>
+	<div id="popularity" class="ml10 fr w400 h600 " style="margin-left:10px;">
+		<ul>
+			<li class="mt30 popularitymenu w400" id="company">
+				<a class="lh80" id="popularityclick1">十大旅游投资先锋企业</a>
+			</li>
+			<li class="mt20 popularitymenu w400" id="project">
+				<a class="lh80" id="popularityclick2">十大旅游投资最佳项目</a>
+			</li>
+		</ul>
+		<div>
+			<img src="images/top10_r5_c4.gif" alt="" class="w400">
+		</div>
+		<table class="click1 clearfix">
+			<tr>
+				<td align="center" bgcolor="#CC0D00" class="w80">编号</td>
+				<td align="center" bgcolor="#CC0D00" class="w90">排名</td>
+				<td align="center" bgcolor="#CC0D00" class="w100">名称</td>
+				<td align="center" bgcolor="#CC0D00" class="w130">票数</td>
+			</tr>
+			<tr>
+				<td align="center">001</td>
+				<td align="center">1</td>
+				<td align="center">成都市</td>
+				<td align="center">00000</td>
+			</tr>
+			<tr>
+				<td align="center">001</td>
+				<td align="center">1</td>
+				<td align="center">成都市</td>
+				<td align="center">00000</td>
+			</tr>
+			<tr>
+				<td align="center">001</td>
+				<td align="center">1</td>
+				<td align="center">成都市</td>
+				<td align="center">00000</td>
+			</tr>
+			<tr>
+				<td align="center">001</td>
+				<td align="center">1</td>
+				<td align="center">成都市</td>
+				<td align="center">00000</td>
+			</tr>
+			<tr>
+				<td align="center">001</td>
+				<td align="center">1</td>
+				<td align="center">成都市</td>
+				<td align="center">00000</td>
+			</tr>
+			<tr>
+				<td align="center">001</td>
+				<td align="center">1</td>
+				<td align="center">成都市</td>
+				<td align="center">00000</td>
+			</tr>
+			<tr>
+				<td align="center">001</td>
+				<td align="center">1</td>
+				<td align="center">成都市</td>
+				<td align="center">00000</td>
+			</tr>
+			<tr>
+				<td align="center">001</td>
+				<td align="center">1</td>
+				<td align="center">成都市</td>
+				<td align="center">00000</td>
+			</tr>
+			<tr>
+				<td align="center">001</td>
+				<td align="center">1</td>
+				<td align="center">成都市</td>
+				<td align="center">00000</td>
+			</tr>
+			<tr>
+				<td align="center">001</td>
+				<td align="center">1</td>
+				<td align="center">成都市</td>
+				<td align="center">00000</td>
+			</tr>
+            </table>
+		<table class="click2 clearfix">
+			<tr>
+				<td align="center" bgcolor="#CC0D00" class="w80">编号</td>
+				<td align="center" bgcolor="#CC0D00" class="w90">排名</td>
+				<td align="center" bgcolor="#CC0D00" class="w100">名称</td>
+				<td align="center" bgcolor="#CC0D00" class="w130">票数</td>
+			</tr>
+			<tr>
+				<td align="center">002</td>
+				<td align="center">2</td>
+				<td align="center">绵阳市</td>
+				<td align="center">00001</td>
+			</tr>
+			<tr>
+				<td align="center">002</td>
+				<td align="center">2</td>
+				<td align="center">绵阳市</td>
+				<td align="center">00001</td>
+			</tr>
+			<tr>
+				<td align="center">002</td>
+				<td align="center">2</td>
+				<td align="center">绵阳市</td>
+				<td align="center">00001</td>
+			</tr>
+			<tr>
+				<td align="center">002</td>
+				<td align="center">2</td>
+				<td align="center">绵阳市</td>
+				<td align="center">00001</td>
+			</tr>
+			<tr>
+				<td align="center">002</td>
+				<td align="center">2</td>
+				<td align="center">绵阳市</td>
+				<td align="center">00001</td>
+			</tr>
+			<tr>
+				<td align="center">002</td>
+				<td align="center">2</td>
+				<td align="center">绵阳市</td>
+				<td align="center">00001</td>
+			</tr>
+			<tr>
+				<td align="center">002</td>
+				<td align="center">2</td>
+				<td align="center">绵阳市</td>
+				<td align="center">00001</td>
+			</tr>
+			<tr>
+				<td align="center">002</td>
+				<td align="center">2</td>
+				<td align="center">绵阳市</td>
+				<td align="center">00001</td>
+			</tr>
+			<tr>
+				<td align="center">002</td>
+				<td align="center">2</td>
+				<td align="center">绵阳市</td>
+				<td align="center">00001</td>
+			</tr>
+			<tr>
+				<td align="center">002</td>
+				<td align="center">2</td>
+				<td align="center">绵阳市</td>
+				<td align="center">00001</td>
+			</tr>
+
+		</table>
+		<div class="">
+			<a href="#" class="view">查看所有排名</a>
+		</div>
+	</div>
+	</div></div>
+	<div style="width:1200px;" class="recommend">
+		<div class=" h60" id="show" style="padding-top:15px;">
+					<div class="menu1" style="margin-left:45px;">
+						<a class="showmenu mt10" id="showclick1">十大旅游投资先锋企业</a>
+					</div>	
+					<div class="menu2" style="margin-left:15px; 	background-color: #cccccc;">
+						<a class="showmenu mt10" id="showclick2">十大旅游投资最佳项目</a>
+					</div>		
+		</div>
+		<div class="exhibition1">
+				<div class="exhibitionitem ml40">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml40">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml40">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml40">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">成都市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+		</div>
+		<div class="exhibition2">
+				<div class="exhibitionitem ml40">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml40">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml40">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml40">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+				<div class="exhibitionitem ml50">
+					<img src="images/top10_r10_c3.png">
+					<p align="center" style="font-size:13px;">绵阳市</p>
+					<div class=" ml10">
+						<p class="fl" style="color:#bf2626; width:88px; height:17px; font-size:13px;">人气：00000</p>
+						<input type="checkbox" class="ml30">
+						<button class="recommendation">推荐</button>
+					</div>
+					
+				</div>
+		</div>
+	</div>	
+</body>
+<script language="javascript" src="http://www.scol.com.cn/new_bottom.js" charset="gb2312"></script>
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/page.css">
+</html>

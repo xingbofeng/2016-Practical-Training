@@ -1,0 +1,196 @@
+@media only screen and (max-width: 509px){
+	body{
+		font-size: 50%;
+	}
+	div.preview{
+		height: 180px;
+	}
+	div.previewindex{
+		height: 37.5px;
+	}
+	div.previewindex span{
+		line-height: 37.5px;
+	}
+	div.button1{
+		margin-left: 3%;
+	}
+	div.button1,div.button2,div.button3,div.button4,div.button5{
+		margin-left: 1%;
+	}
+	div.main h1{
+		line-height: 38.5px;
+	}
+	div.main h2{
+		line-height: 17.5px;
+	}
+	img.line{
+		margin: 10px 0 10px 0;
+	}
+	div.main li{
+		line-height: 38.5px;
+	}
+	div.column3 li{
+		line-height: 38.5px;
+	}
+	div.column3 div.columnname{
+		margin-bottom: 30px;
+	}
+	div.columnname{
+		height: 32px;
+	}
+	div.columnname h1{
+		line-height: 28px;
+	}
+	div.column1 img{
+		height: 77px;
+	}
+	div.column1 h2{
+		line-height: 15.6px;
+	}
+	div.column1 h3{
+		line-height: 20px;
+	}
+	img.img1{
+		top: 50px;
+	}
+	img.img2{
+		top: 150px;
+	}
+	img.img3{
+		top: 250px;
+	}
+	h2.h21{
+		top: 60px;
+	}
+	h2.h22{
+		top: 160px;
+	}
+	h2.h23{
+		top: 260px;
+	}
+	h3.h31{
+		top: 85px;
+	}
+	h3.h32{
+		top: 185px;
+	}
+	h3.h33{
+		top: 285px;
+	}
+	div.block{
+		height: 310px;
+	}
+	div.column2box{
+		margin-top: 15px;
+	}
+	div.column2 h2{
+		line-height: 15.6px;
+	}
+	div.column2 h3{
+		line-height: 20px;
+	}
+	p.p1{
+		line-height: 38.5px;
+	}
+	p.p2{
+		line-height: 17.5px;
+	}
+}
+@media only screen and (min-width: 510px) and (max-width: 720px){
+	body{
+		font-size: 77.8%;
+	}
+	div.preview{
+		height: 280px;
+	}
+	div.previewindex{
+		height: 58.5px;
+	}
+	div.previewindex span{
+		line-height: 58.5px;
+	}
+	div.button1{
+		margin-left: 4.68%;
+	}
+	div.button1,div.button2,div.button3,div.button4,div.button5{
+		margin-left: 1.56%;
+	}
+	div.main h1{
+		line-height: 58.5px;
+	}
+	div.main h2{
+		line-height: 27.3px;
+	}
+	img.line{
+		margin: 15.6px 0 15.6px 0;
+	}
+	div.main li{
+		line-height: 58.5px;
+	}
+	div.column3 li{
+		line-height: 58.5px;
+	}
+	div.column3 div.columnname{
+		margin-bottom: 46.8px;
+	}
+	div.columnname{
+		height: 50px;
+	}
+	div.columnname h1{
+		line-height: 43.68px;
+	}
+	div.column1 img{
+		height: 120px;
+	}
+	div.column1 h2{
+		line-height: 24.336px;
+	}
+	div.column1 h3{
+		line-height: 31.2px;
+	}
+	img.img1{
+		top: 78px;
+	}
+	img.img2{
+		top: 234px;
+	}
+	img.img3{
+		top: 390px;
+	}
+	h2.h21{
+		top: 93.6px;
+	}
+	h2.h22{
+		top: 249.6px;
+	}
+	h2.h23{
+		top: 405.6px;
+	}
+	h3.h31{
+		top: 132.6px;
+	}
+	h3.h32{
+		top: 288.6px;
+	}
+	h3.h33{
+		top: 444.6px;
+	}
+	div.block{
+		height: 483.6px;
+	}
+	div.column2box{
+		margin-top: 23.4px;
+	}
+	div.column2 h2{
+		line-height: 24.336px;
+	}
+	div.column2 h3{
+		line-height: 31.2px;
+	}
+	p.p1{
+		line-height: 60px;
+	}
+	p.p2{
+		line-height: 27.3px;
+	}
+}

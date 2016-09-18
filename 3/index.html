@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2016-7月中国大数据应用大会专题</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/page.css">
+	<script src="jquery-3.0.0.min.js"></script>
+	<script>
+		$(document).ready(function  (e) {
+	//var flag = "go_to_left";
+	var point = 0 ;
+	/*
+
+	function showTmage () {
+		if(point == -2256){
+			flag = "go_to_right";
+		}
+		else if (point == 0) {
+			flag = "go_to_left";
+		}
+		if (flag == "go_to_right") {
+			$(".imgs").animate({left:point},500);
+			point = point + 752;
+		}
+		else if (flag == "go_to_left") {
+			$(".imgs").animate({left:point},500);
+			point = point - 752;
+		};
+
+	}
+	set = setInterval(showTmage,2000);
+
+	*/
+	$(".right").click(function  () {
+		point = point - 752;
+		//$(".imgs").css({left:point+"px"});
+		$(".imgs").animate({left:point});
+		if (point <= -2256) {
+			point = 752;
+		};
+	})
+	$(".left").click(function  () {
+		if (point >= 0) {
+			point = -3008;
+		};
+		point = point + 752;
+		//$(".imgs").css({left:point+"px"});
+		$(".imgs").animate({left:point});
+	})
+	set = setInterval(function  () {
+		$(".right").click();
+	},3000);
+})
+	</script>
+</head>
+<body>
+	<div class="header"></div>
+	<div style="margin:0 auto;width:928px;">
+		<div class="box1 clearfix mt20">
+			<img src="images/15cytf_r2_c2.jpg" alt="" style="display:inline">
+			<div class="box1content fr">
+				<h1 class="" align="center">成洛大道绕城段改造建双向12车道</h1>
+				<p class="mt10">年3月，四川省某投资有限公司和另一公司共同出资在自贡向南至眉山的道路更加便捷<a href="#" style="color:#000000">【详细】</a></p>
+				<h1 class="mt30" align="center">成都最复杂路口交通改造</h1>
+				<p class="mt10">大学路口建3层立体交通集团有限公司和另一公司共同出资在自贡向眉山的道路更加便捷<a href="#" style="color:#000000">【详细】</a></p>
+				<ul class="example mt30">
+					<li>去年四川城镇居民人均工资45697元，金融业领先各行各业。</li>
+					<li>四川非煤矿山整合关闭如何破题？事故矿井纳入安全序列。</li>
+					<li>牛市IPO成造富生产线，川股缔造4位亿万富豪，迅游科技上市。</li>
+				</ul>
+					<div class="more">
+						<a href="#" style="color:#000000">【更多】</a>
+					</div>
+			</div>
+			
+		</div>
+		<div class="box2">
+			<a href="#">
+				<img src="images/15cytf_r3_c2.jpg" alt="">
+			</a>
+			<div class="box2content">
+				<div class="box2pic">
+					<img src="images/15cytf_r3_c3.jpg" alt="">
+					<p class="box2p" align="center">图片标题</p>
+				</div>
+				<div class="box2pic">
+					<img src="images/15cytf_r3_c3.jpg" alt="">
+					<p class="box2p" align="center">图片标题</p>
+				</div>
+				<div class="box2pic">
+					<img src="images/15cytf_r3_c3.jpg" alt="">
+					<p class="box2p" align="center">图片标题</p>
+				</div>
+				<div class="box2pic">
+					<img src="images/15cytf_r3_c3.jpg" alt="">
+					<p class="box2p" align="center">图片标题</p>
+				</div>
+				<br><br><br>
+				<div class="box2pic">
+					<img src="images/15cytf_r3_c3.jpg" alt="">
+					<p class="box2p" align="center">图片标题</p>
+				</div>
+				<div class="box2pic">
+					<img src="images/15cytf_r3_c3.jpg" alt="">
+					<p class="box2p" align="center">图片标题</p>
+				</div>
+				<div class="box2pic">
+					<img src="images/15cytf_r3_c3.jpg" alt="">
+					<p class="box2p" align="center">图片标题</p>
+				</div>
+				<div class="box2pic">
+					<img src="images/15cytf_r3_c3.jpg" alt="">
+					<p class="box2p" align="center">图片标题</p>
+				</div>
+				
+			</div>
+		</div>
+		<div class="box3 clearfix">
+			<a href="#">
+				<img src="images/15cytf_r5_c2.jpg" alt="">
+			</a>
+			<div class="left fl">
+				<img src="images/btn1.jpg" alt="">
+			</div>
+			<div class="box3pic clearfix">
+				<ul class="imgs">
+					<li><img src="images/img1.jpg" style="width:752px;height:414px;"></img></li>
+					<li><img src="images/img2.jpg" style="width:752px;height:414px;"></img></li>
+					<li><img src="images/img3.jpg" style="width:752px;height:414px;"></img></li>
+					<li><img src="images/img4.jpg" style="width:752px;height:414px;"></img></li>
+				</ul>
+			</div>
+			<div class="right fr">
+				<img src="images/btn2.jpg" alt="">
+			</div>
+		</div>
+		<img src="images/bottom.jpg" alt="">
+	</div>
+	<script language="javascript" src="http://www.scol.com.cn/new_bottom.js" charset="gb2312"></script>
+</body>
+</html>

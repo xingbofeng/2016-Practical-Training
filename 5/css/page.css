@@ -1,0 +1,220 @@
+.column3 div.columnname{
+	margin-bottom: 60px;
+}
+.block{
+	height: 620px;
+}
+.h21{
+	top: 120px;
+}
+.h22{
+	top: 320px;
+}
+.h23{
+	top: 520px;
+}
+.h31{
+	top: 170px;
+}
+.h32{
+	top: 370px;
+}
+.h33{
+	top: 570px;
+}
+.img1{
+	top: 100px;
+}
+.img2{
+	top: 300px;
+}
+.img3{
+	top: 500px;
+}
+.none{
+	display: none;
+}
+.header{
+	width: 100%;
+	text-align: center;
+}
+.header img{
+	display: inline-block;
+	width: 39.7%;
+}
+.preview{
+	width: 100%;
+	position: relative;
+	background: url(../images/2.jpg);
+	height: 365px;
+	background-size: 100% 100%;
+}
+.previewindex{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 75px;
+	background: rgba(0,0,0,0.4);
+}
+.previewindex span{
+	line-height: 75px;
+	font-size: 2em;
+	color: #ffffff;
+	margin-left: 2.78%;
+	width: 48.5%;
+}
+.button2,.button3,.button4,.button5{
+	width: 1.25em;
+	height: 1.25em;
+	display: inline-block;
+	background-color: #ffffff;
+	border-radius: 50%;
+	margin-left: 1%;
+	cursor: pointer;
+}
+.button1{
+	width: 1.25em;
+	height: 1.25em;
+	display: inline-block;
+	background-color: #ff6600;
+	border-radius: 50%;
+	margin-left: 25%;
+	cursor: pointer;
+}
+.main{
+	width: 100%;
+
+}
+.main h1{
+	font-family: "Microsoft YaHei";
+	font-weight: bold;
+	line-height: 77px;
+	font-size: 2.1875em;
+	text-align: center;
+	color: #000000;
+	margin-left: 4%;
+}
+.main h2{
+	font-family: "Microsoft YaHei";
+	font-weight: normal;
+	line-height: 35px;
+	font-size: 1.375em;
+	text-indent: 2em;
+	color: #666666;
+	margin-left: 4%;
+}
+li{
+	font-family: "Microsoft YaHei";
+	font-weight: normal;
+	line-height: 77px;
+	font-size: 2.1875em;
+	color: #333333;
+}
+.column1{
+	width: 100%;
+	position: relative;
+}
+.line{
+	width: 100%;
+	margin: 20px 0 20px 0;
+}
+.columnname{
+	background: url(../images/7.jpg);
+	height: 64px;
+	background-size: 100% 100%;
+}
+.columnname h1{
+	line-height: 56px;
+	font-size: 2.5em;
+	font-family: "Microsoft YaHei";
+	color: #ffffff;
+	text-indent: 0.5em;
+	font-weight: normal;
+}
+.column1 img{
+	width: 34.7%;
+	height: 154px;
+	margin-left: 2.7%;
+	float: left;
+	position: absolute;
+
+}
+.column1 h2{
+	color: #333333;
+	line-height: 31.2px;
+	font-weight: bold;
+	font-size: 1.625em;
+	position: absolute;
+	left: 38.6%;
+	width: 58.6%;
+}
+.column1 h3{
+	color: #666666;
+	line-height: 40px;
+	font-weight: normal;
+	font-size: 1.375em;
+	position: absolute;
+	left: 38.6%;
+	width: 58.6%;
+}
+.column2box{
+	width: 45.8%;
+}
+.column2 img{
+	width: 100%;
+}
+.column2 h2{
+	color: #333333;
+	line-height: 31.2px;
+	font-weight: bold;
+	font-size: 1.625em;
+	width: 100%;
+
+}
+.column2 h3{
+	color: #666666;
+	line-height: 40px;
+	font-weight: normal;
+	font-size: 1.375em;
+	width: 100%;
+}
+.column3{
+	width: 100%;
+}
+.column4{
+	width: 100%;
+}
+.column5{
+	width: 100%;
+}
+.column4 div.fl{
+	width: 30.9%;
+	margin-left: 2%;
+}
+.column4 img{
+	width: 100%;
+}
+.column4 p{
+	text-align: center;
+	line-height: 35px;
+	font-size: 1.25em;
+	color: #333333;
+	font-family: "Microsoft YaHei";
+}
+.p1{
+	line-height: 77px;
+	font-family: "Microsoft YaHei";
+	font-weight: bold;
+	color: #333333;
+	font-size: 2.1875em;
+	width: 93.2%;
+	margin: 0 auto;
+}
+.p2{
+	line-height: 35px;
+	font-family: "Microsoft YaHei";
+	color: #666666;
+	font-size: 1.375em;
+	width: 93.2%;
+	margin: 0 auto;
+}

@@ -1,0 +1,87 @@
+#header{
+	background: url(../images/top10_r1_c1.gif) center;
+	height: 664px;
+}
+#popularity{
+	background-color: #ffffff;
+}
+.popularitymenu{
+	height: 80px;
+	display: inline-block;
+	text-align: center;
+	background-color: #e5effb;
+	font-size: 22px;
+}
+.click2{
+	display: none;
+	background-color:#ffffff;
+}
+.click1{
+	background-color:#ffffff;
+}
+#company{
+	background-color: #257aad;
+	color: #FFFFFF;
+}
+#project{
+	color: #676767;
+}
+#activity{
+	position: relative;
+}
+#activity-paragraph{
+	display: inline-block;
+}
+#show{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+.showmenu{
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+}
+.view{
+	width: 176px;
+	height: 28px;
+	color: #00ff00;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+.exhibitionitem{
+	width: 186px;
+	height: 201px;
+	display: inline-block;
+}
+.exhibition1,.exhibition2{
+	background-color: #ffffff;
+	width: 1200px;
+	margin: 0 auto;
+}
+.exhibition2{
+	display: none;
+}
+.recommend{
+	margin: 0 auto;
+}
+.menu1,.menu2{
+	display: inline-block;
+	width: 210px;
+	height: 50px;
+	text-align: center;
+	background-color: #257aad;
+	color: #ffffff;
+}
+.flpic{
+	position: absolute;
+	right: 10%;
+	top: 200px;
+	z-index: 10;
+}
+.recommendation{
+	background-color:#257aad;
+	color: #ffffff;
+	font-size: 14px; 
+}

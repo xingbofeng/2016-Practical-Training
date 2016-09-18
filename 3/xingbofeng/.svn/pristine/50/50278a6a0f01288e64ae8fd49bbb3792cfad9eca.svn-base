@@ -1,0 +1,17 @@
+p{
+	color: yellow;
+	font-size: 1.2em;
+	font-family: "arial",sans-serif;
+}
+body{
+	background-color: white;
+}
+#purchases li{
+	display: inline;
+}
+#X{
+	color: red;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}

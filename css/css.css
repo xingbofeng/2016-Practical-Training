@@ -1,0 +1,82 @@
+.header{
+	background: url(../images/background.jpg) center;
+	height: 400px;
+	width: 100%;
+	background-size: 100% 100%;
+}
+.content{
+	width: 1200px;
+	margin: 0 auto;
+}
+.title{
+	text-align: center;
+	color: #0074c5;
+}
+.auto{
+	margin:0 auto;
+}
+.everysubject{
+	width: 790px;
+}
+.subjectheader{
+	background-color: #6c99cf;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.subjectheader a{
+	color: #f4f7f9;
+	text-indent: 2em;
+}
+.fl{
+	float: left;
+}
+.subjecttxt{
+	color: #666666;
+	width: 350px;
+	margin-left: 25px;
+}
+.subjecttxt a{
+	color: rgb(241,165,50);
+}
+.subjectpic img{
+	width: 400px;
+	height: 210px;
+}
+.subjectpic{
+	position: relative;
+	width: 400px;
+	height: 210px;
+}
+.subjectpic p{
+	position: absolute;
+	color: #676767;
+	text-align: center;
+	font-size: 30px;
+	top: 35%;
+	left: 30%;
+}
+.interestingpic{
+	width: 400px;
+	display: inline-block;
+	float: right;
+	position: absolute;
+	top: 8px;
+}
+.content{
+	position: relative;
+}
+.pictitle{
+	height: 40px;
+	background-color: #ed0000;
+	color: #ffffff;
+	line-height: 40px;
+}
+.interestingpic img{
+	width: 400px;
+	height: 300px;
+}
+.interestingpic h3{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #333333;
+}

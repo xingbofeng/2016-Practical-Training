@@ -1,0 +1,70 @@
+html{height: 100%;}
+body{
+	background: url(../images/backgroundimg.jpg) no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#img1,#img2,#img3,#img4,#img5{
+	position: absolute;
+}
+#img1,#img2,#img3,#img4,#img5{
+	display: none;
+}
+#img1{
+	top: 2%;
+	left: 17%;
+	width: 40%;
+	height: 8%;
+}
+#img2{
+	top: 3%;
+	left: 27%;
+	width: 40%;
+	height: 
+	10%;
+}
+#img3{
+	top: 5%;
+	left: 35%;
+	width: 50%;
+	height: 15%;
+}
+#img4{
+	top: 16%;
+	left: 45%;
+	width: 20%;
+	height: 7%;
+}
+#img5{
+	top: 20%;
+	left: 60%;
+	width: 20%;
+	height: 4%;
+}
+.box{
+	background: rgba(0,0,0,0.5);
+	height: 3em;
+	z-index: 100;
+	text-align: center;
+	position: fixed;
+	display: none;
+}
+.box span{
+	color: #f9fffe;
+	line-height: 100%;
+	height: 100%;
+	font-size: 2.5em;
+	font-family: "微软雅黑";
+}
+body>img{
+	position: absolute;
+}
+img[src="images/ball.png"]{
+	width: 48px;
+	height: 48px;
+}

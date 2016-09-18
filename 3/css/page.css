@@ -1,0 +1,62 @@
+.header{
+	background: url(../images/15cytf_r1_c1.jpg) center;
+	height: 414px;
+	width: 100%;
+	overflow: hidden;
+}
+h1{
+	font-size: 22px;
+	font-family:"Microsoft YaHei";
+	font-weight: bold;
+}
+.box1content{
+	width: 452px;
+	margin-left: 25px;
+}
+.more{
+	margin-left: 350px;
+	margin-top: 15px;
+}
+.box1content p{
+	font-size: 14px;
+	text-indent: 2em;
+	color:#000000;
+}
+.box2pic{
+	width: 207px;
+	display: inline-block;
+	margin-left: 15px;
+}
+.box2pic p{
+	text-indent: 0;
+	text-align: center;
+}
+.box3pic{
+	margin: 0 auto;
+	width: 752px;
+	height: 414px;
+	overflow: hidden;
+	position: relative;
+}
+.imgs{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 3008px;
+	height: 414px;
+	list-style: none;
+
+}
+.imgs li{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.left,.right{
+	width: 83px;
+	height: 146px;
+	margin-top: 145px; 
+}
+.left{
+	margin-right: 15px;
+}

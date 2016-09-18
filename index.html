@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/page.css">
+	<script language="javascript" type="text/javascript" src="http://www.scol.com.cn/js/jquery.min.js"></script>
+	<script src="js/myfocus.js"></script>
+	<script src="js/page.js"></script>
+	<script>
+		alert("页面By:Encounter 来自UESTC的前端菜B\n美工By:一起参加实训的某某某同学\n友情提示:使用手机访问与电脑访问是两种不同的效果哦!")
+		var userAgentInfo = navigator.userAgent;
+            var Agents = ["Android", "iPhone",
+                        "SymbianOS", "Windows Phone",
+                        "iPad", "iPod"];
+            var flag = true;
+            for (var v = 0; v < Agents.length; v++) {
+                if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            if(flag == true){
+                
+            }else{
+                window.location = "mobile/index.html";
+            }
+	</script>
+	<title>Encounter:不想停下脚步的前端猿</title>
+</head>
+<body>
+	<div class="floatpic">
+		<img src="images/fl.jpg" alt="">
+		<p>扫描上方二维码关注我</p>
+	</div>
+	<div class="header">
+		
+	</div>
+	<div class="main clearfix">
+		<div class="left fl">
+			<img src="images/img1.jpg" alt="">
+			<div class="item">
+				<div class="itemtitle mt50">
+					<h1>实习之前随便乱整的</h1>
+				</div>
+				<div class="itemcontent mt15">
+					<p>话不多说，实习前随便乱整的。</p>
+				</div>
+				<a href="1/index.html">
+					<div class="itempic mt15">
+						<img src="images/pageimg0.jpg" alt="">
+					</div>
+				</a>
+			</div>
+			<div class="item">
+				<div class="itemtitle mt50">
+					<h1>20160713-20160714四川旅游产业TOP10专题</h1>
+				</div>
+				<div class="itemcontent mt15">
+					<p>带着不扎实的html、css基础以及深知自己没刷完过一遍js开始的大二实习。这是我在公司的第一张图，两周后的自己来看现在这张图发现确实是入门级的。总的来说是边做边查、强行糊弄过去的吧。对于入门者来说，难点可能算是这张图的网页选项卡部分和浮标部分。边看边学用js实现也是不难的。</p>
+				</div>
+				<a href="2/index.html">
+					<div class="itempic mt15">
+						<img src="images/pageimg1.jpg" alt="">
+					</div>
+				</a>
+			</div>
+			<div class="item">
+				<div class="itemtitle mt50">
+					<h1>20160715 2016-7月中国大数据应用大会专题</h1>
+				</div>
+				<div class="itemcontent mt15">
+					<p>这张图难点是轮播，在网上看了许多相关代码后逐渐理解了轮播的原理：把参与轮播的每张图放在一个div里，并且设置父级div的宽度为单张图片宽度，位置设置为相对定位，超出页面部分设置为隐藏overflow:hidden，并且把每张图向左浮动，通过js控制父级div的left属性即可。</p>
+				</div>
+				<a href="3/index.html">
+					<div class="itempic mt15">
+						<img src="images/pageimg2.jpg" alt="">
+					</div>
+				</a>
+			</div>
+			<div class="item">
+				<div class="itemtitle mt50">
+					<h1>20160718-20160719四川日报网问政四川频道</h1>
+				</div>
+				<div class="itemcontent mt15">
+					<p>刚拿到这张图的时候对自己能不能写完都没什么把握，很多地方都是新挑战。不管是页面上半部分的点击按钮切换幻灯片部分，亦或是浮标、或是网页选项卡，还是地图部分的判断焦点所处位置的逻辑，对我而言都是挑战。依然是边做边查。第一次写了三百多行的js代码，接近两千行的html，满满的收获。</p>
+				</div>
+				<a href="4/index.html">
+					<div class="itempic mt15">
+						<img src="images/pageimg3.jpg" alt="">
+					</div>
+				</a>
+			</div>
+			<div class="item">
+				<div class="itemtitle mt50">
+					<h1>20160720-20160722市州手机版</h1>
+				</div>
+				<div class="itemcontent mt15">
+					<p>第一次写自适应页面，同样多的挑战。而不仅是简简单单的@media媒体查询，也不仅是单位方面把像素改为em或者百分比那样。熬夜想要做成一件事情的感觉真的很好~</p>
+				</div>
+				<a href="5/index.html">
+					<div class="itempic mt15">
+						<img src="images/pageimg4.jpg" alt="">
+					</div>
+				</a>
+			</div>
+			<div class="item">
+				<div class="itemtitle mt50">
+					<h1>20160725-20160726成都足球 手机版</h1>
+				</div>
+				<div class="itemcontent mt15">
+					<p>足球的旋转用的是一个旋转的jquery插件。看起来容易理解起来难。然后就是clearinterval的清除操作还是比较费脑筋的。做的不是太好，感觉原图清晰度不够（并不是想说这是ui的问题）总的来说，算是看得过去吧。</p>
+				</div>
+				<a href="ball/index.html">
+					<div class="itempic mt15">
+						<img src="images/pageimg5.jpg" alt="">
+					</div>
+				</a>
+			</div>
+			<div class="item">
+				<div class="itemtitle mt50">
+					<h1>20160728-20160729网商会</h1>
+				</div>
+				<div class="itemcontent mt15">
+					<p>来这里头一次做的上线的图，轮播不用自己写，焦点图也不用自己写，都是套插件。然而自己去看插件的api文档看得挺久的，也不怎么会，自己做出来的效果和老师修改后上线的效果还是差距挺大的。最近在看jqueryui，很多东西还是很不错的！原图稿是1920像素宽，所以浏览器窗口适当缩小哦。右侧是地址。<a href="internetmeeting/index.html">我写出的初稿</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://special.scol.com.cn/16jlh/">上线后的地址</a></p>
+				</div>
+				<a href="internetmeeting/index.html">
+					<div class="itempic mt15">
+						<img src="images/pageimg6.jpg" alt="">
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="right ml35 fl">
+			<img src="images/img3.jpg" alt="" class="mb50">
+			<div id="boxID"><!--焦点图盒子-->
+				<div class="pic"><!--内容列表(li数目可随意增减)-->
+				  	<ul>
+				        <li><a href="#"><img src="images/IMG_20160719_181043.jpg" thumb="" alt="7.12日 部门的牌牌" text=""/></a></li>
+				        <li><a href="#"><img src="images/IMG20160713084424.jpg" thumb="" alt="某日的早餐 成都的燃面" /></a></li>
+				        <li><a href="#"><img src="images/IMG20160714115935.jpg" thumb="" alt="仅仅是一台机器" /></a></li>
+				        <li><a href="#"><img src="images/1468918556857_8e7a2484-a466-408c-9909-f52d7d6ef9b.jpg" thumb="" alt="拍于某日下班时 完工的喜悦" /></a></li>
+				        <li><a href="#"><img src="images/IMG_20160721_140057.jpg" thumb="" alt="俯拍公司14楼" /></a></li>
+				        <li><a href="#"><img src="images/IMG20160731105339.jpg" thumb="" alt="我们一起来吸屁股" /></a></li>
+				  	</ul>
+				</div>
+			</div>
+			<img src="images/img5.jpg" alt="" class="mt50">
+			<div class="summary mt50">
+				<span>未完待续......</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
